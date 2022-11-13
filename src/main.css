@@ -1,0 +1,160 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1350px;
+margin: 0 auto;
+}
+
+
+
+
+.mainCards{
+display: flex;
+width: 1350px;
+margin: 0 auto;
+justify-content: center;
+}
+
+.Cards {
+    padding: 50px;
+    max-width: 350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.Cards:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
+}
+
+
+.App :link{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav h3 {
+    color: black;
+}
+
+.gender {
+    display: flex;
+}
+
+.gender h5 {
+    margin-left: 10px;
+}
+.gender h4 {
+    margin-left: 5px;
+}
+
+
+.tb {
+    border: 1px solid black;
+}
+
+form {
+    justify-content: center;
+display: flex;
+}
+
+.add-contact {
+display: flex;
+justify-content: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(64, 35, 117);
+}
+.tyrr th{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(55, 159, 203);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: teal;
+    padding: 10px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+.ed_form {
+margin-left: 8px;
+border-radius: 8px;
+padding: 10px;
+}
+
+.add_btn {
+    border-radius: 5px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(85, 238, 202);
+}
+.emp_cart {
+    display: flex;
+    max-width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.emp_cart:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
+}
+.dv {
+    display: flex;
+    align-items: center;
+}
+.dv h1{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    text-shadow: 
+      1px 0px 1px #ccc, 0px 1px 1px #eee, 
+      2px 1px 1px #ccc, 1px 2px 1px #eee,
+      3px 2px 1px #ccc, 2px 3px 1px #eee,
+      4px 3px 1px #ccc, 3px 4px 1px #eee,
+      5px 4px 1px #ccc, 4px 5px 1px #eee,
+      6px 5px 1px #ccc, 5px 6px 1px #eee,
+      7px 6px 1px #ccc;
+}
+.employer_card {
+    padding: 20px;
+}
+.dv span{
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 
+      1px 0px 1px #ccc, 0px 1px 1px #eee, 
+      2px 1px 1px #ccc, 1px 2px 1px #eee,
+      3px 2px 1px #ccc, 2px 3px 1px #eee,
+      4px 3px 1px #ccc, 3px 4px 1px #eee,
+      5px 4px 1px #ccc, 4px 5px 1px #eee,
+      6px 5px 1px #ccc, 5px 6px 1px #eee,
+      7px 6px 1px #ccc;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(85, 238, 202);
+}
